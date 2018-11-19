@@ -252,8 +252,8 @@ void BST_312 <ItemType>::makeEmpty(TreeNode*& t)
         return;
     }
     makeEmpty(t->left);
-    delete t;
     makeEmpty(t->right);
+    delete t;
     return;
 }
 
