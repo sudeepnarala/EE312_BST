@@ -415,8 +415,7 @@ template<class ItemType>
 bool BST_312 <ItemType>::isItemInTree(const ItemType& item)
 {
   //YOUR CODE GOES HERE
-  TreeNode* curr = new TreeNode;
-  curr = root;
+  TreeNode* curr = root;
   while(curr != NULL)
   {
       if(curr->data == item)
